@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animated Robot</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial;
+    }
+    p {
+      font-size: 4em;
+    }
+    .eye {
+      background-color:blue;
+      width: 20%;
+      height: 50%;
+      border-radius: 50%;
+    }
+    #righteye {
+      position: absolute;
+      left: 20%;
+      top: 20%;
+    }
+    #lefteye {
+      position: absolute;
+      left: 60%;
+      top: 20%;
+    }
+
+  </style>
 </head>
 <body>
   <div id="robot">
@@ -12,7 +33,7 @@
     <div class="eye" id="lefteye"></div>
     <div id="mouth"></div>
     <div id="nose"></div>
-    <!-- Add other robot parts here -->
+    
   </div>
   </body>
   <script>"main.js"</script>

@@ -1,8 +1,8 @@
 var leftEye = document.getElementById("lefteye");
 
-leftEye.style.backgroundColor = "purple";
+leftEye.style.backgroundColor = "red";
 
 setInterval(function() {
-  var currentLeft = parseInt(leftEye.style.left, 10);
+  var currentLeft = parseInt(leftEye.style.left, 100);
   leftEye.style.left = (currentLeft + 1) + "px";
 }, 100);
