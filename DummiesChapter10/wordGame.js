@@ -16,7 +16,7 @@ function replaceIt() {
     let adjDance = "<span class='replacement'>" + document.getElementById('adjDance').value + '</span>';
     let animal = "<span class='replacement'>" + document.getElementById('animal').value + '</span>';
     let city = "<span class='replacement'>" + document.getElementById('city').value + '</span>';
-    let verb = "<span class='replacement'>" + document.getElementById('verb').value + '</span>';
+    let verb = "<span class='replacement'>" + document.getElementById('verb').value + '</span>'; 
     /* Insert more variable definitions here */
     
     let theStory = "<h1>Douglas's Dance Party</h1> ";
