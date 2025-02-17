@@ -49,11 +49,27 @@
 // }
 
 
-let word = "JavaScript";
-let reversed = "";
+// let word = "JavaScript";
+// let reversed = "";
 
-for (let i = word.length - 1; i >= 0; i--){
-    reversed += word[i];
-}
+// for (let i = word.length - 1; i >= 0; i--){
+//     reversed += word[i];
+// }
 
-console.log("Reversed Word:", reversed);
+// console.log("Reversed Word:", reversed);
+
+// let myVar = true;
+
+// while (myVar) {
+//     console.log("boom");
+//     myVar = false;
+
+// }
+
+let i = 0;
+
+while (i < 50){
+    console.log("Let's keep going up"); 
+    i++;
+
+} 

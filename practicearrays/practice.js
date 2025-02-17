@@ -27,3 +27,11 @@
 // console.log(numbersintwo.reverse());
 
 // let numsintwoandfootballers = footballers.concat(numbersintwo);
+
+let i = 0;
+
+while (i < 500){
+    console.log("Let's keep going up"); 
+    i++;
+
+} 
